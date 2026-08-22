@@ -38,6 +38,7 @@ Dashboard
 The Power BI dashboard consists of two pages.
 
 Page 1 – Customer Churn Overview
+
 The first page provides a high-level overview of customer churn using:
 
 - Total Customers
