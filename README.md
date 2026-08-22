@@ -1,6 +1,7 @@
 Customer Churn Analysis – Power BI
 
 Project Overview
+
 Customer Churn Analysis is an interactive Power BI dashboard built using a telecom customer churn dataset obtained from Kaggle.
 The project analyzes customer churn patterns and identifies key factors associated with customer attrition, with the goal of generating actionable insights for customer retention.
 
@@ -22,6 +23,7 @@ Tools & Technologies
 - Kaggle Dataset
 
 Data Preparation
+
 The telecom customer churn dataset was imported into Power BI.
 Using Power Query, categorical Yes/No service indicators were transformed into binary 1/0 values where appropriate.
 A calculated column was created to determine the total number of services used by each customer.
@@ -32,6 +34,7 @@ A `Churn Flag` was also created to represent whether a customer had churned:
 DAX measures were then used to calculate key KPIs including total customers, churned customers, average monthly charges, and churn rate.
 
 Dashboard
+
 The Power BI dashboard consists of two pages.
 
 Page 1 – Customer Churn Overview
@@ -47,6 +50,7 @@ The first page provides a high-level overview of customer churn using:
 - Interactive filters for Contract, Senior Citizen Status, and Internet Service
 
 Page 2 – Detailed Churn Analysis
+
 The second page provides deeper analysis of churn across:
 
 - Senior Citizen Status
@@ -61,6 +65,7 @@ The second page provides deeper analysis of churn across:
 Interactive slicers allow users to explore different customer segments.
 
 Key Insights
+
 The dashboard helps identify:
 - Customers on month-to-month contracts have substantially higher churn than customers on longer-term contracts.
 - Electronic check users show comparatively high churn.
