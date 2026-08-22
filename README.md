@@ -75,6 +75,7 @@ Repository Contents
 - Dataset/source information
 
 Dataset
+
 The dataset used for this project was obtained from Kaggle and contains telecom customer information including demographics, services, contract details, payment methods, monthly charges, and churn status.
 
 Author
